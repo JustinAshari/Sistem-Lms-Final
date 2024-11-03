@@ -8,10 +8,10 @@
           alt="Profile picture of Andrew Jonson" 
           class="object-contain w-12 h-12 rounded-full"
         />
-        <div class="flex flex-col items-start leading-tight">
+        <Router-Link to="/author" class="flex flex-col items-start leading-tight">
           <h1 class="opacity-[0.87]">Andrew Jonson</h1>
           <p class="text-sm text-gray-500 font-normal">Posted on 27th January 2022</p>
-        </div>
+        </Router-Link>
       </div>
     </header>
     
